@@ -1,0 +1,916 @@
+﻿     _ _
+    | \ | ___  _ _ _  ___ ___  ___  ___  ___  _ _
+    |   |/ ._>| | | |<_-<| . \<_> || . \/ ._>| '_>
+    |_\_|\___.|__/_/ /__/|  _/<___||  _/\___.|_|
+                         |_|       |_|
+    ~ tagDiv 2019 ~
+
+    Thanks for your support and feel free to contact us any time :) 
+    http://forum.tagdiv.com - support forum
+	http://tagdiv.com
+
+	Made with love by:
+  ~ Marius, Alin, Nicu, Radu, Emil, Alina S., Alina G., Lucian, Bogdan, Catalin, Cristi, John, Simion and Eliza ~
+
+[ Version 9.5 ]
+new: 3 New installable demos created with the tagDiv Cloud Library: Nomad, Racing, and Home Decor Demo. You can modify all the templates using the frontend drag and drop functionality:
+new: Fully customizable Racing Demo; - https://demo.tagdiv.com/newspaper_racing/
+new: Fully customizable Home Decor Demo; - https://demo.tagdiv.com/newspaper_decor/
+new: Fully customizable Nomad; - https://demo.tagdiv.com/newspaper_nomad/
+new: Introducing the Header Builder. Now you have the power to create completely different headers for various pages, sticky headers on desktop and mobile, but also special headers for small screen devices. 
+new: The Header Manager. This feature allows you to have a different header on templates (think of it as your Headers Assign System :p)
+new: 35+ Header Templates. Fully editable, the header templates are easy to import and modify to fit your website perfectly. Almost all of them come with editable logos.
+new: 10 New header shortcodes - Drag and drop them into a new header and customize them with tagDiv Composer.
+new: Auto Loading feature for articles - When visitors reach the end of the post, another article is loaded. You can easily choose which one is displayed next.
+new: We've added a beautiful set of icons in Newspaper Theme font. They are very useful for crafting your logos.
+new: Shadow Controller for tagDiv Composer.
+misc: We've added 2 beautiful Styles for the multipurpose 'Button' Element.
+misc: Full compatibility with Gutenberg blocks.
+fix: Social share buttons.
+fix: Page settings in Gutenberg editor.
+fix: Flex blocks.
+fix: Display mobile grid (on Mobile Theme) only if 'Featured' category exists.
+fix: Some fixes for demos install.
+
+[ Version 9.2.1 ]
+new: option to hide row on pagination, useful for Posts Loop shortcodes.
+fix: LazyLoad on slow network connections. Please clear all your caches, including browser cache.
+fix: better support for WordPress 5.0.
+fix: various css fixes for flex blocks.
+fix: encoding issue when importing a section/template.
+  
+[ Version 9.2 ]
+new: Food Blog demo
+new: Lazy Load Effect - now images are loaded only when they are in the viewport
+new: 60 new Pre-Designed Templates in tagDiv Cloud Library
+new: Analytics Events and Facebook pixel events support for blocks that use buttons. You can easly configure an event on any button that will be tracked
+new: Fixed count option in the Social Counter plugin
+new: Categories/Tags list and Search Form shortcodes
+misc: Full compatibility with Guttenberg and WordPress 5. We tested the theme with WordPress 5.0 Release Candidate to make sure that any problems are fixed on time for the next WordPress version.
+misc: We updated the Visual Composer plugin to the latest version
+misc: Exclude post or pages IDs for Loop shortcode. Usefull when you want to exlude specific posts or pages on any template, for example to hide a page on the search template.
+fix: Inline ad
+fix: Category individual template now work as expected
+fix: Removed the open box animation in theme panel
+fix: Smartlist end h tags
+fix: Render shortcode on Column Text
+fix: Various CSS fixes
+
+[ Version 9.1 ]
+new: 7 New installable demos created with the tagDiv Cloud Library: Entertainment, Living Mag, Fast News, Gossip, Journal, Gaming, and Lifestyle Blog. You can modify all the templates like the single post, author page, category, and so on, using the frontend drag and drop functionality:
+new: Fully customizable Entertainment Demo;
+new: Fully customizable Living Mag Demo;
+new: Fully customizable Fast News Demo;
+new: Fully customizable Gossip Demo;
+new: Fully customizable Journal Demo; 
+new: Fully customizable Gaming Demo;
+New: Fully customizable Lifestyle Blog.
+new: We’re introducing the intuitive Right-Click option in the tagDiv Composer page builder to bring you new features and a natural way to design your website:
+new: Copy and Paste options available from the Right-Click menu for elements, columns, and rows available; This functionality also works between pages, not only on the same page;
+new: Copy and Paste Style option. Now you can copy the customized style of an element and apply it to all the similar ones. The feature is available from the Right-Click menu for elements, columns, and rows. You can also use it between pages, not only on the same page;
+new: Reset Style option. Now you have the option to revert an element style to the default design settings. The feature is available from the Right-Click menu;
+new: Save as Element option. From the Right-Click menu, you can save elements and rows as predefined ones, and use them later from the ‘Add Element’ button in the tagDiv Composer
+new: Delete option. Now it’s easy to remove the unwanted items from your page, straight from the Right-Click menu;
+new: Duplicate option - available from the Right-Click menu
+new: Clear option available from the right-click menu. Now you can quickly remove all the elements from a column or row. 
+new: 10 beautiful Big Grid Flex elements
+new: Style Presets for Big Grids Flex and Category Grids
+new: option to choose the H tag format for the Title element
+new: option to Duplicate a Cloud template 
+new: “Used on” Column in Cloud Templates section. Now you can easily see which template is assigned and used on your website. 
+new: Post Loop 2 element: Use this new element to display posts loop using other designs
+new: option to quickly change the Page or Template Name directly from the tagDiv Composer page builder editor
+new: Recent Comments element with new Extra Style settings
+new: the list of Used Colors for pickers is now available in tagDiv Composer in the Recent Colors section
+new: the list of Used Fonts is available in the tagDiv Composer under the Load Font Settings menu
+new: We’ve tested and updated the Visual Composer plugin to the latest version
+misc: new alert message box in tagDiv Composer
+misc: settings updated for the Single Review Overall and Summary Post elements 
+misc: the List Menu element: added a new font option for the header title section
+misc: Flex block 1: added color option for the review stars
+misc: new options for Slide element. Now you can choose a specific height responsive
+misc: update for tagDiv Newsletter plugin: added MailChimp GDPR checkboxes
+misc: update for tagDiv Cloud Library plugin: new enumeration system for duplicated templates and other UX improvements
+fix: the tagDiv Composer panel’s appearance when the scroll is hidden in your browser
+fix: style for comment edit link
+fix: Column Text encoding issues
+fix: bug when deleting an assigned Single Cloud template
+fix: Single Post review - the Google Structured Data error
+fix: Flex Grids blocks - the horizontal align 
+fix: smartlist missing paragraph
+fix: minor fixes for the tagDiv Newsletter plugin for the MailerLite
+fix: various fixes for the WooCommerce CSS
+fix: the Comments form issues
+fix: the Category Grids and Flex Grids blocks - the title hover color 
+fix: Facebook ‘Like’ button issue on the Mobile Theme plugin
+fix: other minor fixes
+
+  
+[ Version 9.0.1 ]
+- fix: block with title, column text and raw html elements crashed on specific circumstances
+  
+[ Version 9.0 ]
+- new: tagDiv Composer now supports undo and redo actions.
+- new: Classy demo. The first demo that is fully customizable with the drag and drop functionality. All the templates (like the author, category, single post, etc.) can be modified with tagDiv Composer. 
+- new: tagDiv image style: center full width - available in the image details panel while editing a post. This option centers the image and leaves it full width. This image style is very useful and enables creative designs with full images when the article has no sidebars.
+- new: flex block 3, 4, and 5. The new flex block elements enable unique layouts with a lot of flexibility.
+- new: option to hide the caption on featured images that are used on custom single templates.
+- new: reviews are now fully supported on custom single templates.
+- new: ajax pagination (load more, next prev, and autoloading) on the loop shortcode. This shortcode is used to create the archive templates, category templates, author templates, and others using the Cloud Library
+- new: now you can load and select custom templates from the Cloud Library and customize them with tagDiv Composer: 404, archive, attachments, search and tag templates. Each author and category page can have a custom template.
+- new: Pinterest on the Social Counter plugin
+- new: 140+ customizable sections
+- new: 39+ contact and about pages
+- new: 15+ category templates
+- new: 24 editable footers
+- improvement: the breadcrumbs now support custom links so you can easily override the ones provided by WordPress on custom templates like the author, single page, categories, and many more.
+- improvement: the breadcrumbs on custom templates now produce JSON-LD for SEO.
+- improvement: the local templates on tagDiv Cloud Library now can be filtered by type (single, category, author, etc.).
+- improvement: two new custom fonts spots. Now the theme can load up to 5 custom fonts.
+- fix: the column text and block with title text is now encoded, so this should prevent problems when the page is manually edited.
+- fix: various multi-purpose elements like recent comments and text with image.
+- fix: live CSS button was not working on the Firefox browser.
+- fix: various permissions checks in tagDiv Composer for the editors and authors. Now an editor can use the plugin but cannot change the header of the site or other sitewide settings.
+- fix: Visual Composer 5.5+ interferes with tagDiv Composer functionality.
+- fix: border-radius setting on buttons.
+- fix: icon box description font was not working as expected.
+- fix: CSS issues when speed booster is active.
+- fix: while editing a custom single template, the comments now look just as they display on the front end
+- fix: tagDiv Amp plugin now sanitizes the footer text as expected.
+- fix: smart list 6 CSS fixes.
+- fix: when using custom templates from tagDiv Cloud Library, the theme now displays the “no posts text” as expected.
+- fix: offset support on loops that are used in custom templates now works as expected.
+- fix: weather widget now allows a city id.
+- fix: various fixes to the footer page.
+- fix: various Firefox specific fixes regarding the shadow.
+- fix: WPML support on author templates.
+  
+[ Version 8.8.2 ]  
+- new: added support for multiple sticky sidebars. The setting is available when you select a column in the tagDiv Composer page builder
+- new: custom URL option for RSS in tagDiv Social Counter plugin
+- improvement: better UI while customizing the flex block elements
+- improvement: tagDiv Cloud Library now loads faster as we've improved the servers speed and the way it loads data
+- improvement: on every theme update, if any of our plugins are not compatible with the new version, there will be displayed a warning message
+- improvement: the playlist shortcode now allows you to add custom classes
+- improvement: flex blocks now support author photos
+- improvement: support for footer shortcuts in the AMP theme version
+- fix: row divider background color
+- fix: the footer site link color now takes the global site color
+- fix: block 5 title font was not working correctly and it was fixed to perform well
+- fix: WPML flag in post content
+- fix: the conflict between tagDiv Cloud Library and Jetpack plugin. Our Vue router was loaded on "wp-admin," and it was conflicting with the Jetpack's React router
+- fix: templates loaded from tagDiv Cloud Library for author, search, 404, etc. were loaded on the mobile theme
+- fix: if the footer is disabled, from now on, it will be hidden on the AMP theme version too
+- fix: various typos in the Theme Options panel
+- fix: Pinterest block API issues. It also has better error messages
+- fix: Slider 2 element problems
+- improvement: better error messages when tagDiv Composer encounters a problem
+  
+[ Version 8.8 ]
+- new: tagDiv Cloud Library plugin with over 140 premade sections, page templates, and dynamic templates. <a href="https://tagdiv.com/newspaper-8-8-update-what-s-new/">Read More</a>
+- new: template system that lets you set dynamic templates made with tagDiv Composer for author pages, single, category etc.
+- new: over 50 new blocks that pull data on the dynamic templates. For example, a single dynamic template made with drag and drop can display all your posts.
+- new: update button for included plugins. The theme will automatically try to keep the composer and social counter up to date.
+- improvement: when the mb_string extension is missing the theme will now show a warning instead of a white screen.
+- improvement: added checks in the status panel for mod_substitute, gd library and other required extensions.
+  
+[ Version 8.7.5 ]
+- new: we added support for the private policy WordPress page on the login/register modal window.
+- new: setting to disable google fonts in theme panel - fonts - google fonts settings. You can load local font files and use them instead of external fonts.
+- improvement: the tagDiv Multi-Purpose plugin is included in the tagDiv Composer plugin. There is no need to install the Multi-Purpose plugin now, as all the functionality was moved in tagDiv Composer.
+- improvement: the plugin update system was completely rewritten from scratch. It tries to update the plugin using multiple ways and if it fails, it will show an admin notice with information about what plugin failed and why.
+- improvement: all plugins now have a built date on them besides the version.
+- improvement: the theme is GDPR compliant now.
+- new: shortcuts to use in the footer text - date, sitelink, privacy_policy and more. The list of shortcuts is available in the theme panel next to the setting.
+
+
+  
+[ Version 8.7.4 ]
+- fix: flickering problem on the latest version of chrome
+- fix: facebook social counter now only requieres the profile page and no api key. This provides a simpler setup
+- fix: art creek and sound radar demos
+- fix: wrong urls in wp-admin that pointed to the documentation
+- fix: header 8 when used with the boxed setting
+- fix: Text Block with Title remove default text from frontend
+- fix: various fixes to flex block 1
+- improvement: added text logo and tagline to font settings
+- fix: block 24 thumb on mobile
+- fix: mobile theme path problems on some hosts/servers
+- fix: removed author vcard when author box is disabled
+- improvement: category description allows paragraphs
+- improvement: html5 shim for older ie is now loaded from cloudflare
+
+
+  
+[ Version 8.7.3 ]
+- new: font settins can now be saved as a preset and apply on all the blocks from tagDiv Composer easly
+- fix: pinteres board url
+- fix: facebook videos support now works again
+- fix: we updated to the latest instagram api, this should fix all the problems
+- fix: updated multipurpose plugin with fixes for: boarders, image settings, newsletter and font settings
+- fix: Big grid slider with no posts
+- fix: Various css fixes
+- fix: header ad when block template 17 is used
+- fix: gallery slider now works in pages as expected
+- fix: background click ad on template 8
+- fix: amp points and percents are working as expected now
+- fix: css fixes for trending now block
+
+
+[ Version 8.7.2 ]
+- improvement: improved tagDiv composer selection mask. New colors and better ui, now the controls are outside of the selection mask, this allows better selection for small items.
+- improvement: wp-admin performance issue. We optimized the composer to load only what's needed and where is needed. Wp-admin speed should greatly improve.
+- improvement: huge speed improvemnts in tagDiv composer editor. We did a full memory consumption audit for tagDiv Composer and we fixed a few memory leaks.
+- improvement: we removed unneded confirmations from tagDiv composer. For example when the content of the page was not changed and a user wanted to close the composer.
+- improvement: when closing tagDiv Composer you will be redirected to the previeous page instead of the default edit page. We found that this provides a better user experience 
+- improvement: tagDiv composer now has a new color picker script that is a lot faster then the old one. The same color picker is used on the widgets.
+- improvement: we added a couple of new social icons that are available on the top bar and footer of the site
+
+
+  
+[ Version 8.7 ]
+- new: tagDiv AMP plugin - tagDiv's solution for implementing Google AMP in WordPress
+- new: tagDiv Newsletter plugin - newsletter form beautifully designed with over 8 styles
+- new: tagDiv Multi-purposer version 2
+- new: 7 new installable demos
+- new: Nature love installable demo - <a target="_blank" href="https://demo.tagdiv.com/newspaper_nature/">view demo</a>
+- new: Raw & Wild installable demo - <a target="_blank" href="https://demo.tagdiv.com/newspaper_wildlife/">view demo</a>
+- new: Ink Parlor installable demo - <a target="_blank" href="https://demo.tagdiv.com/newspaper_ink/">view demo</a>
+- new: City News installable demo - <a target="_blank" href="https://demo.tagdiv.com/newspaper_city_news/">view demo</a>
+- new: Wine Aroma installable demo - <a target="_blank" href="https://demo.tagdiv.com/newspaper_wine/">view demo</a>
+- new: News Week installable demo - <a target="_blank" href="https://demo.tagdiv.com/newspaper_week/">view demo</a>
+- new: Coffee Blog installable demo - <a target="_blank" href="https://demo.tagdiv.com/newspaper_blog_coffee/">view demo</a>
+- new: responsive options for shortcodes in tagDiv Multi-purpose plugin
+- new: responsive font options for shortcodes in tagDiv Multi-purpose plugin
+- new: responsive options for theme shortcodes
+- new: responsive font options for theme shortcodes
+- new: content length option for blocks and big grids
+- new: 1 new content block - flex block
+- fix: allow underscore and space to the sidebar name
+- fix: php 7.2 compatibility
+- fix: save row and inner-row option in tagDiv Composer
+- fix: caption alignment in WordPress 4.9
+
+
+[ Version 8.6 ]  
+- new: <a href="https://tagdiv.com/social-network-buttons/">social sharing networks</a>, the theme now supports Linkedin, Tumblr, Email sharing, Telegram, Digg, Reddit, StumbleUpon, VK, LINE and Viber
+- new: ability to reorder the social icons with drag and drop from the theme panel
+- new: 20 social icons styles for social sharing
+- new: if the icons do not fit on screen the theme will automatically hide them
+- fix: google maps embedded in Raw HTML composer element
+- fix: better printing style for posts
+- fix: CSS adjustments for block 16 on mobile
+
+  
+[ Version 8.5.1 ]
+- fix: the new update broke the child theme support and it's now fixed
+- fix: color picker on widgets
+- fix: next/prev on post templates
+- fix: the live CSS was injected before some of the panel CSS and it didn't overwrite it without using !important
+- fix: single image page builder element disappeared from the page when no image was present
+- fix: category template 2 and 5 CSS issues
+- fix: retro demo typos
+- fix: search icon problems - also please try to hit save in the theme panel to regenerate the CSS cache of the theme
+- fix: speed booster is now compatible with our multi-purpose plugin
+- fix: icons used for templates in our page builder where missing
+  
+[ Version 8.5 ]
+- new: tagDiv Multi-Purpose plugin with 21 content elements for tagDiv Composer
+- new: empty page template for landing pages
+- new: page template with overlay menu for landing pages
+- new: 8 multi-purpose demos
+- new: Law Firm multi-purpose installable demo - <a href="https://demo.tagdiv.com/newspaper_law_firm/">view demo</a>
+- new: Smart APP multi-purpose installable demo  - <a href="https://demo.tagdiv.com/newspaper_smart_app/">view demo</a>
+- new: Dental Studio multi-purpose installable demo  - <a href="https://demo.tagdiv.com/newspaper_dentist/">view demo</a>
+- new: Spa Heaven multi-purpose installable demo - <a href="https://demo.tagdiv.com/newspaper_spa/">view demo</a>
+- new: Construction multi-purpose installable demo  - <a href="https://demo.tagdiv.com/newspaper_construction/">view demo</a>
+- new: Showcase multi-purpose installable demo - <a href="https://demo.tagdiv.com/newspaper_showcase/">view demo</a>
+- new: Technology multi-purpose installable demo - <a href="https://demo.tagdiv.com/newspaper_technology/">view demo</a>
+- new: Restro multi-purpose installable demo - <a href="https://demo.tagdiv.com/newspaper_restro/">view demo</a>
+- new: different width layout sizes - for wider websites
+- new: video background with parallax
+- new: image background with parallax
+- new: option to save gradients as presets
+- new: option to save sections (shortcodes, rows) as templates, to use them on other pages
+- new: pre-made style presets shortcodes from demos
+- new: full height row
+- new: content vertical alignment in a row
+- new: custom columns gap size
+- new: multiple new layout columns options for rows/inner-rows
+- new: responsive custom width columns size
+- new: multiple responsive options (spacing, borders, shadows, overlay colors, backgrounds)
+- new: 3 new header templates for the multi-purpose plugin
+- new: Theme Panel option to enable social icons in Main Menu
+- new: Theme Panel option to add a background image for header
+- new: option to replace the footer with a page content (to build more complex footers using tagDiv Composer)
+- new: 1 new sub-footer template for the multi-purpose plugin
+- new: button shortcode
+- new: call-to-action shortcode
+- new: client shortcode
+- new: column content shortcode
+- new: column title shortcode
+- new: fancy text with image shortcode
+- new: food menu product shortcode
+- new: hero shortcode
+- new: icon shortcode
+- new: icon box shortcode
+- new: image info box shortcode
+- new: inline single image shortcode
+- new: inline text shortcode
+- new: list shortcode
+- new: numbered counter shortcode
+- new: pricing table shortcode
+- new: progress bar shortcode
+- new: social icons shortcode
+- new: team member shortcode
+- new: testimonial shortcode
+- new: text with image shortcode
+- new: title over image shortcode
+- new: gradient color picker
+- new: responsive width option for rows, columns, shortcodes
+- new: responsive horizontal alignment for rows, columns, shortcodes
+- new: responsive z-index option for rows, columns, shortcodes
+- new: responsive display option for rows, columns, shortcodes
+- new: Theme Panel options for multi-purpose plugin
+- new: Theme Panel option to add buttons in main menu
+- new: Theme Panel option to add extra information on the top menu or sub-footer like phone number or email address
+- new: Theme Panel option to make a bordered website like in this <a href="https://demo.tagdiv.com/newspaper_law_firm/" >demo</a>
+- new: 5 new styles for active/hover menu items for Main Menu
+- new: option to set a global style for buttons 
+- new: Main Menu sticky colors from the Theme Panel
+- fix: mobile smart list 3 title fix
+- fix: spacing issue when hide meta info on post template 12/13 and mx8 module
+- fix: background color on Text with title block
+- fix: no comments displayed on the BuddyPress template
+
+[ Version 8.1 ]
+- new: Added custom style and support for WordPress 4.8 widgets
+- improvement: The theme now loads the BBpress style only when the plugin is active
+- improvement: List menu block now works with submenues
+- improvement: Instagram IDs now work with or without @
+- fix: Photography demo style fixes 
+- fix: Post gallery shadow on image popup
+- fix: Art Creek demo transitions on module thumbs
+- fix: Art Creek demo installer issues
+- fix: tagDiv Gallery styling issues and thumbnails display
+- fix: Lifestyle demo import issues
+- fix: Fitness Blog import links
+- fix: Column Text Block title
+- fix: margin and padding on tagDiv Composer with a value of 0
+- fix: Imagebox Block bugs
+- fix: Gadgets and Sound Radar demos popup bug
+- fix: Tech demo preview image
+- fix: ImageBox Block works now with images that don't have a destination URL
+- fix: Adspots load wrong spotID in tagDiv Composer
+- fix: Various typos in our Theme Panel
+- fix: Small issue with the full width headers with logos
+- fix: Big Grid Slider Block parameters
+- fix: Wedding demo fonts issue
+- fix: Business demo better text aligment
+- fix: Various CSS and HTML structure fixes on different parts of the theme. We finely tuned all the demos to look and feel perfect.
+  
+[ Version 8.0 ]  
+- new: The first Pagebuilder ever created for blogs, news and magazine websites is now ready to transform your website. In Newspaper 8 we’ve added tagDiv Composer to give you a lighter, faster and more efficient way to build your site: right on the frontend, easier than ever, seeing every change instantly. <a href="https://www.youtube.com/watch?v=yCoy4jbfoEA">Watch the video</a>
+- new: Live frontend LESS and CSS editor. This allows you to quickly add CSS or LESS, to any page of your site
+- new: Lifestyle Magazine Demo
+- new: Gadgets Demo
+- new: Craft Ideas Demo
+- new: Business Magazine Demo
+- new: Book Club Demo
+- new: Architecture Blog Demo
+- new: Retro Wave Demo
+- new: Fitness Blog Demo
+- new: Voice Report Demo
+- new: Art Creek Demo
+- new: Sound Radar Demo
+- new: Church Mag Demo
+- new: Old Fashioned Demo
+- new: Photo Folio Demo
+- new: All of the post Grids now support full width
+- misc: We revised all the block headers and we added multiple new options for them
+- misc: We redesigned all the older demos and gave them a modern look, improving every aspect of the demos
+- misc: Full PHP 7.1 support
+- fix: Background ad click issues
+- fix: Password field on mobile phones alignment issues
+- fix: WooCommerce issues
+
+
+  
+[ Version 7.8 ]  
+- new: Huge improvement with the spacing of elements and the grid. We completely rewrote the grid system to allow easier full width rows and headers. Expect more full width options soon :)
+- new: clear cache debug button for video playlists
+- new: Speed Booster plugin version. Please update it if you use it.
+- new: Pinterest block and widget. Show your Pinterest boards in style with this new block. Please note that this block is in testing phase.
+- new: the Main Menu of the theme was redesigned from scratch
+- new: Added a lot of options for colors on menu
+- header and footer full width support
+- improvement: better plugin descriptions and help text
+- improvement: all big grids now show a nice error message when they don't fit in the layout of the site. (when used on one column or two)
+- fix: added various missing translations to the translation panel
+- fix: some block templates were not able to change color on Firefox due to a scoped style
+- fix: we removed the offset from Ajax requests, this provides a better user experience with the theme and the filters
+- fix: the global modal window now ignores pictures with external links. Before this update, the modal windows was trying to open the external link
+- fix: the jetpack sorting method on blocks now works as expected again
+- fix: block header 17 on Social Counter now works as expected
+- fix: Instagram images aligment issues
+- fix: post template 1 featured image sizing bug
+- fix: all embeds that overflow content on small screens are now fixed
+- fix: repaint in Chrome browser on blocks that use Load More
+- fix: mobile theme now works with Revolution Slider as expected
+
+  
+[ Version 7.7 ]
+- new: this theme version has support for block templates and it comes with 17 bundled templates. A block template can change the appearance of a blocks title, pagination and more. The global block template will also affect the way comments, related posts and widgets look and feel.
+- new: widgets can use block templates that are different from the global one that is selected in the panel
+- new: options for Google Font weights and styles. The theme will only load the needed font weights and styles from now on
+- improvement: Author Box is added as a widget now
+- improvement: added footer social icons color option
+- improvement: archive widget style
+- improvement: The Header Style section from Theme Panel was redesigned with icons to be more user friendly
+- improvement: image box block now supports custom gaps between pictures and custom heights
+- improvement: widgets can now use an image upload control. The first widget to use this is the imagebox widget
+- improvement: Google Fonts now always load as one file
+- improvement: Theme Panel layout and spacing is much improved now
+- improvement: inline ad displays at the last paragraph whenever there are not as many paragraphs mentioned in After Paragraph field and the article bottom ad is not active
+- improvement: we updated the list of compatible plugins in the theme
+- fix: update the Instagram icon
+- fix: pulldown filter alignment on category template 8  
+- fix: image caption link on smartlists was not working
+- fix: the tagline from the text logo
+- fix: Instagram widget on the boxed version was overflowing
+- fix: the password reset link that was sent from our login modal window was not working
+- fix: for BuddyPress styling issue - members, activity, groups pages and search form
+- fix: we switched to https all the post sharing links
+- fix: the mobile theme did not load the translations from the theme's .po .mo files
+- fix: the not secured warning in Chrome only appears now when the login box is opened
+- fix: theme action error in the status panel when the theme is already activated
+- fix: featured images from Vimeo videos are now larger
+- fix: Ajax login works now via https
+- fix: the sample plugin that shows how to add new modules and blocks works as expected now. It was giving a fatal error
+
+
+
+[ Version 7.6 ]
+- improvement: Visual Composer plugin updated to the latest version 5.0.1
+- improvement: Revolution Slider plugin updated to the latest version
+- improvement: full compatibility with WordPress 4.7
+- new: DEMO - Beauty blog - a fresh and simple blog demo. Easy to use and beautifully designed
+- new: The Plugin Page from where a user installs the included plugins was completely redesigned to be more user friendly.
+- new: added support for block templates overwritten via the Theme API system in demos. All future demos can now load different block templates if needed.
+- new: the comment form is now validated with JavaScript. This was a long requested feature and we are very happy how it turned out.
+- improvement: CSS fixes in the Theme Panel and the welcome screen
+- improvement: we finally updated the social icons and we also removed the icons for dead services (Picasa, Posterous etc)
+- improvement: the Social Networks panel now checks each input to be correct, this prevents user error and bad URL's that supposed to go to social networks profiles but instead go to 404 pages on the site
+- improvement: we removed the max-width from srcset on images and the responsive images on mobile now work as expected
+- improvement: translation panel information text
+- improvement: on Android, when a user uses the mobile search, it will autofocus on the input field now
+- fix: password protected comments now work as expected
+- fix: Facebook videos that are in the content of the post now work and resize as expected
+- fix: font panel CSS issues
+- fix: the tag Ajax filter now displays the tags in the order of the id's the user selects. Before it was alphabetically
+- fix: home breadcrumb does not appear as structured data as required by the Google metadata testing tool
+- fix: smartlists that had image captions with HTML where broken. Now we fixed them.
+- fix: category sorting options was not working sometimes.
+
+  
+[ Version 7.5 ]
+- new: author block - this block shows the author picture, socials and description. All in a nice and customizable design.
+- new: image box block - this block is not just a simple image, it can be used to create banners, show featured categories with custom images or just to show some images. It's auto adjusting and fully customizable.0
+- fix: overlapping of Visual Composer and Newspaper tooltips while editing a page after the first install
+- improvement: various core code refactoring and optimizations.
+- improvement: better theme documentation and better help text in panel
+- improvement: added used on for thumbnails in Theme Panel
+- improvement: file path and names are now visible on each module, smart list, template etc on hover
+- improvement: breadcrumbs markup, added BreadcrumbList schema
+- improvement: in the System status panel, the theme now shows the license key used on the current install and we also have a button to remove the license from the install.
+- fix: our blocks sometimes had issues auto adjusting the column count when placed in a inner row that is in a row
+- fix: wrong recommended columns in Visual Composer, new users found it difficult to find out on what column layouts our blocks work best
+- fix: drag and drop metabox flicker in wp-admin while editing a page
+
+
+[ Version 7.4 ]
+- new: We are very happy to announce that this version of the theme supports retina featured images.
+- new: Twitter video support
+- fix: Social Counter header can be changed again
+- fix: footer copyright section on mobile theme now works as expected
+- fix: fixed Author name on mobile theme + theme logo
+- fix: various bbPress CSS fixes
+- fix: category template subcategory dropdown list color
+- fix: better aligment for images without any aligment option (left, middle or right)
+- fix: cleaned up the Social Counter CSS
+- fix: WordPress RSS widget was broken
+- new: all blocks can now have custom classnames in the wrapper. The class can be added in Visual Composer while editing the block.
+
+  
+[ Version 7.3 ]  
+UPDATE NOTICE: Please note that this version does not work with legacy Visual Composer versions.
+- new: support for Facebook featured videos. If a video from Facebook is set as featured, the theme can automatically download the thumb and generate the embed player.
+- new: login, register and forgot password Ajax windows, a complete and more modern redesign.
+- new: added support for full height rows, column position and content position on them in Visual Composer.
+- new: added support for parallax speed on rows
+- new: added support for equal height inner rows and content placement
+- new: fixed the blocks Ajax filters. Now when padding is added from the design tab, the Ajax filters will work as expected
+- new: setting to hide the Author name on modules and on single posts independently. Previously there was only one global setting.
+- improvement: we cleaned the Theme Panel and the code is more organized now
+- improvement: all the blocks now show a notice to admins on the frontend when there are missing settings that are required.
+- improvement: all the advertising blocks now support an ad title
+- improvement: various Google webmaster structured data issues have been fixed
+- improvement: the main theme loader is smoother now
+- improvement: added class to comment titles
+- improvement: we changed the way templates detect the Visual Composer plugin. The detection method is based on VC_ROW and it only triggers when VC_ROW is found in the content. This allows one to use shortcodes in the default templates that have sidebar + title.
+- fix: bookmarklet missing on mobile theme
+- fix: vertical sidebar text on admin tinyMCE editor
+- fix: recipes demo spacing issue
+
+
+[ Version 7.2 ]
+- new: Visual Composer plugin updated to the latest version 4.12
+- new: We added the Design options tab on most of the blocks.
+- new: Added support for custom fonts in Theme Panel that are uploaded via the WordPress media gallery. The custom fonts can be used just like before on most of the theme's UI without writing any code
+- new: the weather widget now opens an input if it's unable to locate the user via the browser's location API.
+- improvement: block paramers now have a better description
+- improvement: we fully rewrote the trending now block, it's now cleaner and it works better
+- improvement: code improvements to the following shortcodes: td_block_big_grid_slide, td_block_homepage_full_1, td_block_ad_box and the video playlists
+- improvement: the media gallery that is used in the Theme Panel is now less cluttered and without the unused options
+- fix: the close button for the mobile menu was fixed
+- fix: long author names now work fine on td_block_16 shortcode
+- fix: long Instagram user ids now appear as expected on the widget and block
+- fix: background ad now works as expected
+- fix: styling issue on the install demos panel
+- fix: exchange widget and block issue on some servers because we use https to acces the API
+- fix: Instagram widget warnings with wp-debug on when no Instagram id was present
+- fix: mobile menu background height is now as expected
+- fix: HTML in footer copyright is not striped now
+  
+[ Version 7.1.1 ]
+- fix: Instagram support on tagDiv Social Counter.  The plugin was updated to version 4.1
+- fix: mobile menu appears on IE edge on refresh
+- fix: uninstall demos was not working as expected. In this version it will remove the installed demo and restore the original content of the site (including menus, widgets and sidebars)
+
+  
+
+[ Version 7.1 ]
+- fix: panel got stuck while saving in specific cases, mostly related to categories
+- fix: Related articles filter was not working with the settings from the panel if you choose related by tags and the post had no tags set.
+- fix: contributor users cannot change the post template now, this is more in line with WordPress
+- fix: Security issues
+- fix: back to top on ie9
+- fix: missing WooCommerce add to cart on mobiles  
+
+[ Version 7.0.1 ]
+- fix: Related articles filter was not working with the settings from the panel if you choose related by tags or categories.
+- fix: Infinite pagination on categories did not work with Speed Booster
+
+
+[ Version 7.0 ]
+UPDATE NOTICE: Please update tagDiv Social Counter to the latest version that comes with the theme.
+- new: <a href="http://demo.tagdiv.com/newspaper/mobile-theme/">Mobile Theme</a> - version 1.0
+- new: <a href="http://demo.tagdiv.com/newspaper/instagram-widget/">Instagram block</a> and widget
+- new: <a href="http://demo.tagdiv.com/newspaper_black/">Footer Instagram</a>
+- new: <a href="http://demo.tagdiv.com/newspaper/weather-widget/">Weather block</a> and widget
+- new: <a href="http://demo.tagdiv.com/newspaper/">Weather</a> option in top bar
+- new: <a href="http://demo.tagdiv.com/newspaper/exchange-widget/">Exchange block</a> and widget
+- new: <a href="http://demo.tagdiv.com/newspaper/mobile-menu/">Mobile menu</a> on the resposive version of the theme
+- new: <a href="http://demo.tagdiv.com/newspaper/big-grid-9/">+4 big grids</a>
+- new: <a href="http://demo.tagdiv.com/newspaper/big-grid-1/">+2 big grids styles</a>
+- new: 3 new modules
+- new: <a href="http://demo.tagdiv.com/newspaper/block-22/">4 new blocks</a>
+- new: 2 new footer styles
+- new: 15 one click <a href="http://demo.tagdiv.com/newspaper/">demos</a>
+- new: <a href="http://demo.tagdiv.com/newspaper_black/">Black version</a> of the theme
+- new: <a href="http://demo.tagdiv.com/newspaper/social-counter-widget/">10 Social counter styles</a>
+- new: search menu on mobiles
+- new: background support for mobile search and menu
+- new: the mobile theme and the responsive theme on mobiles now offer a login/register option
+- new: custom post types now support a global sidebar that can be set from the Theme Panel
+- new: logo in H1 tags
+- new: reset button in Theme Panel. This will bring the theme to the original state.
+- new: panel for one click demos
+- new: enable/disable category pull-down filter option in Theme Panel
+- new: display order for category tags on post pages option in Theme Panel
+- new: Social Counter - version 4.0 - please update your plugin to the latest version
+- improvement: the theme settings are now only saved once per pageload and only if needed. We use the shutdown action to save them.
+- improvement: video playlist block now works with multiple playlists of the same type on one page
+- improvement: we audited all the metadata produced by the theme and we improved every aspect of it
+- improvement: each demo, now loads its separate CSS file
+- improvement: updated the Google Fonts list
+- improvement: better SEO on smartlists
+- improvement: the featured image from the smartlists now supports custom 
+- improvement: the categories that are listed on post pages can now be shown using the WordPress default order. This can be enabled from Theme Panel.
+- improvement: all blocks can now sort by older first
+- improvement: The responsive YouTube player now has a better aspect ratio
+- improvement: All font options are now included on a single page, Theme Fonts, documentation was also updated to match the new configuration
+- improvement: We optimized the queries for all the blocks and widgets that don't show posts (popular categories, social counter etc...)
+- fix: on blocks the by category filter now returns all the categories again if no ids are selected
+- fix: the theme works better with the default WordPress excerpts. It does not remove the ... now from the excerpts.
+- fix: we added the Import script from version 4.x of the theme again. We realized that it was a mistake to remove it from the theme because there are still customers using 4.x
+- fix: removed no comments message with comments disabled
+- fix: layout issue with images that had tagDiv image style set and no link
+- fix: infinite loading on categories issue with latest posts when the rest is fewer than the "Blog pages show at most" setting
+- fix: footer logo title attribute
+- fix: tinyMCE issues with the shortcodes menu (multiple options where selected in specific cases)
+- fix: thumb wp_booster API error. Our framework was not recognising the default "thumb" image size that is registered by WordPress
+- fix: clean up and optimized all the demos
+- fix: custom fonts buffer was not saving in certain cases
+- fix: custom fonts documentation link in Theme Panel was linking to the old documentation
+- fix: smart lists first image link target parameter was ignored
+- fix: smart lists JavaScript issue where links with target _blank were opened twice: in a new tab and in the current tab
+- fix: sticky main menu logo didn't show up when Smart snap (mobile) was enabled
+
+
+
+[ Version 6.7.2 ]
+- fix: social counter Facebook issue with new API keys
+- fix: security issue
+  
+[ Version 6.7.1 ]
+- new: Visual Composer plugin updated to the latest version 4.11.2
+- new: Revolution Slider plugin updated to the latest version 5.2.4.1
+
+
+[ Version 6.7 ]
+- new: Visual Composer plugin updated to the latest version 4.11
+- new: Revolution Slider plugin updated to the latest version 5.2.2
+- fix: Theme Panel fixed the structure for categories that have multiple branches(subcategories with their own subcategories)
+- fix: Visual Composer 4.10 - Video Player resize problem for aspect ratio 4:3 and 2.35:1
+- fix: removed some old Visual Composer detection code from td_wp_booster_functions.php, it was causing an error in certain cases
+- fix: improved the Visual Composer detection code inside the default page template file, it was triggered when the shortcodes didn't have unique names(ex. WooCommerce shortcodes)
+- improvement: Authors box widget/block - added user roles option, now you can set it to display only the desired role(s) - https://codex.wordpress.org/Roles_and_Capabilities
+- other: to keep the theme size under 8MB we removed the Revolution Slider install from the Newspaper->Plugins section. You have to install it manually - http://forum.tagdiv.com/how-to-install-revolution-slider-v5/
+- other: removed unused code from "page-pagebuilder-title.php" template file
+
+[ Version 6.6.5 ]
+- fix: WooCommerce 2.5 compatibility + various styling issues
+- improvement: Visual Composer plugin updated to the latest version
+- improvement: Revolution Slider updated to the latest version
+- improvement: Theme Panel status now shows the loaded demo information
+- improvement: footer logo title and alt attribute is now configurable from the Theme Panel
+- improvement: faster servers that serve the files for the one click demos
+
+[ Version 6.6.4 ]
+- fix: homepage pagination issue with wordpress 4.4.1
+  
+[ Version 6.6.3 ]
+- new: Visual Composer was updated to the latest version 4.9
+- new: Revolution Slider was updated to the latest version 5.1.5  
+- fix: modified structured data to comply with Google's new requirements
+
+
+[ Version 6.6.2 ]  
+- fix: pagination was not working on categories with big grid disabled on WordPress 4.4
+
+
+[ Version 6.6.1 ]
+- new Social Counter version. Facebook requiers now an API key, read more here: http://forum.tagdiv.com/tagdiv-social-counter-tutorial/
+
+
+[ Version 6.6 ]
+- new: Custom code panel. We realized that all the custom CSS, HTML and JavaScript should be in one panel. We also added a custom HTML code section. All the input areas from this panel have autocomplete (ctrl+space) and error checking.
+- new: WhatsApp share for article on mobile devices
+- new: added http channel test status in the system status panel. You can now check if the theme is able to get the Tweet count, Like count etc from your host.
+- new: filter posts by ID in blocks. You can add/exclude specific posts on all the blocks now.
+- new: the theme now has its own logging system. We can now debug hosting issues easier.
+- new: a new self diagnosting and self configurating module that allows our theme to pull data from other sites more reliably.
+- fix: smart list 7 and 8 - sometimes the content was doubled
+- fix: G+ new icon
+- improvement: video playlist is now more reliable and all the code is loaded only when needed via autoload. The YouTube videos information is now collected using just one API call instead of multiple API calls for each videos.
+- improvement: SpeedBooster 4.2 now supports WooCommerce better and moves the style.css to the bottom
+- improvement: the Theme Panel works better now when adblock is used
+- improvement: all the Ajax functionality of the theme is now loaded only when needed
+- improvement: better security checks on all the Ajax requests
+- improvement: HTML is allowed now in the copyright section of the footer
+- improvement: Social Counter button is clickable on the entire area
+- improvement: almost all the JavaScript code now passes jshint. We still have about 15-20% of the code to refactor to the new standards but with time we will get there.
+- improvement: the theme's data source class can now be overwritten from the child theme
+- improvement: all the widgets from the theme are now optimized to work better. The widget_builder class is now deprecated and all the functionality was moved to td_block_widget
+- improvement: the video playlist now downloads the videos metadata on render, not on save post. This allows us to use the playlist on the on click demos.
+- improvement: the following modules of the theme are loaded on demand now: td_log, td_remote_http, td_remote_video, td_data_source, td_video_support, td_more_article_box, td_page_views, td_review, td_ajax. This means that the theme loads them only when needed. We mesured a 10% faster load time after this tweak.
+- fix: theme animations were incompatible with some plugins and the Visual Composer Gallery. The animations still worked but all of them looked a bit strange.
+- fix: bug with the demo loader - the dinamic CSS for a specific demo was still loaded even after the demo was uninstall
+- fix: header style 8 top submenu z-index fix
+- fix: image aligment issue when using custom article paddings
+- fix: the documentation url for demos was wrong in wp-admin
+- fix: we updated the ads links to point to the right documentation
+- fix: Social Counter now shows the followers instead of +1 on Google Plus. Please update your Social Counter to see the improvement.
+- fix: styling issues with the latest version of BuddyPress
+- fix: on rare ocassions with some plugins the theme was emitting warnings in the server logs like: "Catchable fatal error: Object of class stdClass could not be converted to string"
+- fix: error that was showing up in logs when the Theme Panel was saved
+
+
+[ Version 6.5 ]
+- new: You can now show in all the blocks and widgets site wide popular articles in the last days provided by the Jetpack plugin
+- new: All the block widgets now show the name of the block and the title of the block in the WordPress widgets panel. Now it's very easy to see what blocks you are using and where. Huge thanks to @shubhra from our forums!
+- new: each demo now uses a separate CSS generator for that modifies the appearance of the theme. The theme now generates just the required CSS to for each demo.
+- new: Cars demo
+- new: mobile menu colors can be changed via Theme Panel
+- new: smart list 8 with dropdown list
+- new: ad spot used for the Smart list 8
+- new: Visual Composer was updated to the latest version. Please not that if you are using tabs, the new Visual Composer has a different shortcode for them and a completely new HTML structure.
+- fix: smooth scroll was no longer working on Chrome since 6.4. Not it works just like before.
+- fix: various issues with our JavaScript detector. It was using strings instead of boolean values when it was setting the detector status and the rest of the theme was expected booleans
+- fix: we added the alt tag to placeholder feature images and the thumb disabled images
+- fix: paragraphs in comments on posts and in WooCommerce now have appropriate spacing
+- fix: smart list 4 with small content it was not clearing the content and the images were strange. Now it works as expected.
+- fix: it was not possible to install our WooCommerce plugins from our Plugins Panel due to a typo :|
+- fix: WoordPress typo in Social Media Panel
+- fix: smart list 3 issues with H4 and other headers. It was producing invalid HTML
+- fix: breadcrumbs click on post template 4 was not working
+- fix: header style 8 + custom menu colors or custom backgrounds now works as expected
+- fix: on post pages if the Author Box was hidden, the theme was sometimes producing invalid author links
+- fix: possible function name collision of our gallery filter. Thanks to @denimology from our forum for this suggestion.
+- fix: tabs widget from VC, the shortcode was changed in the latest VC version and it lost the theme style
+- fix: ads CSS we moved the align spacing from container to ads itself
+- fix: non adsense ads can be disabled responsive using the panel options
+- fix: alignment issue when disable top social on some post templates
+- fix: the views from the iOS slider now hide when the site wide option to hide views is active
+- fix: author mail address now autoappends mailto: if needed
+- fix: inline ads work as expected now. When HTML content was before the first paragraph in articles, the ad was rendered inside the paragraph
+- improvement: added better explications in the ads panel, we fixed all the links to point to the relevant documentation and we also rewrote the documentation to be better.
+- improvement: block 21 is now also available as a widget. It works very well in sidebars and has a good look
+- improvement: the backend editor style that is used in TinyMCE no longer compiles on demand. We ship a ready compiled CSS and this makes the editor load faster.
+
+
+
+[ Version 6.4 ]
+blog_post: http://tagdiv.com/newspaper-6-4-update/
+- new: smart list with pagination
+- new: this is the first version of our Ajax preloader. The preloader loads the Ajax subcategories on the initial pageload, this provides a better user experience and in some cases a better performance if the initial page is cache.
+- new: all categories now have an option for infinite loading + load more instead of pagination
+- new: 2 new smart lists templates (smart list 6 and 7)
+- new: 2 new ad spots used for smart lists (smart list 6 and 7)
+- new: 2 new post style template (style 12, 13)
+- new: demo - Travel
+- new: demo - Health & Fitness
+- new: footer background option in Theme Panel -> Footer
+- new: WooCommerce invoicing plugin
+- new: WooCommerce label maker plugin with support for label Dymo label printer
+- fix: default and custom ad size not working for tablet landscape
+- fix: on the ad block the sidebar ad spot cannot be selected since the last Visual Composer update
+- fix: IMPORTANT security issue with the Ajax code that handles the sidebars.
+- fix: issue with Ajax subcategories. If you clicked them fast enough there was a chance that they will desynchronize with the content, showing the wrong content.
+- fix: block 18 CSS fix for large image sizes
+- improvement: a big part of the themes JavaScript now passes jsHint and complies to WordPress JavaScript Coding standards
+- improvement: mega menu Ajax loading now works smoother and the animation is top to bottom
+- improvement: infinite loader now has a loading animation
+- improvement: we improved the loading animation, it's smaller when needed and it looks better
+- improvement: added link to user page on login widget from top menu
+  
+[ Version 6.3.2 ] - July 30, 2015
+- fix: the theme API code is more compact now, using just one file
+- fix: the patch from 6.3 to 6.3.1 was broken. In this realease we added a patch that will bring your theme up to date from 6.3 or 6.3.1
+- fix: warning showing up in logs on rare occasions when the panel was saved
+- fix: the sliders load now only when the images are downloaded, up until now the slider appeared broken for a split second until the images where ready
+- fix: incorrect link on live search when category tag is enable on Module MX2
+
+    
+[ Version 6.3.1 ] - July 28th, 2015
+UPDATE NOTICE: Please update the Visual Composer to the latest version
+- new: Continuing our move to a more developer friendly theme, now on all custom post types you can select the sidebar position and the sidebar on a per post basis. This is very useful to customize the layout of pages added by plugins that use Custom Post Types. Want a new sidebar with custom widgets on that custom post type? Boom! It can be done now. Ok, we found that some of the plugins register custom post types and use the page template, instead of the single template, if that's the case we recommend that you take one of the single templates and rename it to single-plugins_custom_post_type.php. You can generally find the custom post type used by the plugin via our CPT panel.
+- improvement: this update brings the start of a new system that will load only the required CSS. In this first step we switched the WooCommerce CSS to the new system and it's loaded only when it's required. With time as we make sure that the system is stable, we will move all the plugin CSS externally and more :)
+- improvement:HTML is now allowed on the author box on the author page
+- improvement: we updated the Visual Composer plugin to the latest version.
+- improvement: the Theme Panel was improved and it now supports plugins, with time we are hoping to add panels for the social counter and SpeedBooster plugins
+- fix: all the metadata exposed by the theme was audited and we fixed all the issues found. The new Google Metadata Testing Tool was updated and it reported some missing metadata.
+- fix: custom post types now load the default WordPress single.php or single-CPT.php regardless of the global single post template setting.  
+- fix: WooCommerce single template was not applying the correct sidebar position and sidebar from Theme Panel
+- fix: on the pagebuilder + loop template when you selected a category the pagination was showing a warning
+- fix: view all results when searching was returning a page with the two words marged instead of separated
+  
+  
+  
+[ Version 6.3 ] - July 15th, 2015
+- new: Custom Posts Types panel - from here you can customize the single for specific custom post types. For example you can choose what taxonomy to use for breadcrumbs, the category spot and the tags spot.
+- new: Custom taxonomy panel - customize the module used for listings, the sidebar position and sidebar for each taxonomy.
+- new: taxonomy.php - all the taxonomy archives are handled by that file
+- new: single templates that can be easily ported to custom post types by just copying them to something like single-YourCPT.php
+- improvement:better child theme support. The blocks, modules, single template, all WordPress templates, some core components and single loops are now easily overwritten via the child theme
+- fix: demo installer error when the uploads folder doesn't have the requiered permisions
+- fix: smooth scroll was not working on Chrome.
+  
+[ Version 6.2.1 ] - July 6th, 2015
+- fix: incompatibility with WordPress SEO by Yoast. The title of the homepage was unchangeable via wp SEO
+
+[ Version 6.2 ] - June 22th, 2015
+- fix: images are new resized properly on default and style 2 single post templates. New if you resize an image using tinyMCE, it will appear the same on the front end.
+- fix: smart lists + Yoast Analytics incompatibility
+- fix: import demos with default black headers color
+- fix: unclickable breadcrumbs on Category Template Style 8
+- fix: breadcrumb empty space if you hide it on post template style 3 with background
+- fix: hover color on username on default WordPress comments
+- fix: pull quote CSS fix - the quotes were appearing in the wrong order
+- fix: WooCommerce typography space issue
+- fix: Twitter embed appearance
+- improvement: the theme now downloads bigger Vimeo thumbnails when available
+- improvement: child theme now has a version, useful for cache busting
+- improvement: trending now label can now be customized with background color and text color
+- improvement: add translation for 'of'
+- improvement: now you can login/register to post a comment directly from the comment section
+- improvement: now in Mega Menu Page support lists and WP Custom Menus
+
+
+  
+[ Version 6.1 ] - June 20th, 2015
+- improvement: added global colour for block headers in General theme colors section
+- improvement: now you can change the fonts on Lists in post content from Theme panel
+- improvement: added .screen-reader-text class for better usability
+- improvement: Visual Composer updated to the latest version
+- improvement: better documentation + first video tutorials
+- fix: UI improvements, key images now have a specified height, this prevents repaints and it makes the page appear that it loads faster
+- fix: unique articles work now as expected
+- fix: better review import from version 4
+- fix: Speed Booster 4.1 works better now + BuddyPress fix
+- fix: big grids on iOS were missing titles until touch
+- fix: block 20 CSS fix + Speed Booster
+- fix: content bottom and top content ads CSS fix for Safari, Firefox and IE
+- fix: various CSS fixes
+- fix: Social Counter Instagram
+- fix: main menu z-index
+- fix: missing Ajax filter option for IOS slider
+- fix: Visual Composer single image block alignment issues
+- fix: space issue when turn off the top menu on header style 12
+- fix: the Ajax dropdown filter sometimes disappeared when the mouse was moved down to select ca category
+- fix: Ajax filter - was deselecting all the selected filters from the page on click
+- fix: better alignment on reviews
+
+  
+[ Version 6.0 ]   - June 16th, 2015
+UPDATE NOTICE: This is a major update of the theme. We recommend that you do a full backup before updating form the previous version. In the package we also ship the old version.
+- new: tagDiv's WP Booster API System is the new amazing tool designed to let you customize your theme even more
+- new: smart lists support was added. You have 5 built in smart lists to create multipages articles with style
+- new: 12 different website headers were added. Each style comes with a logo spot which powers up your web identity, and a custom ad spot to maximize your income.
+- new: 4 top bar templates (the black one) are now available. Now you can display the calendar date, an additional menu, the log in/register section and the social icons in 4 different ways.
+- new:  21 fully styled content blocks were added to show regular article loops
+- new: 8 posts grids (called big grids in our theme) are ready to use for highlighting the latest posts or featured ones
+- new: 5 big grid styles, each with unique animation and feeling. All of the big grid styles work on each of the 8 post grids. This provides great flexibility.
+- new: 12 footer styles and a new footer info bar are now available. Customize the footer adding text, widgets or social icons and maximize your website’s impact on its audience.
+- new: 16 modules that are used for displaying posts in loops.
+- new: 5 new ad spots added to the theme to maximize your income. Each ad spot has one box where you can insert your ad code and the theme makes it responsive automatically.
+- new: 11 post templates. We designed them paying attention to the smallest details. Now you can use a featured image or video, a custom WYSIWYG article editor and dozens of options to style your articles.
+- new: thumb selection system. The new systems allows you to customize what thumbs are needed to be cut, this keeps the number of generated thumbs low and the site faster.
+- new: completely rewritten slide block  - We’ve rebuilt this tool that let you create the perfect page for your website.
+- new: custom made parallax library. Made by us, it's optimized to perform way better than off the shelf / open source solutions.
+- new: custom made lazy loading library. Coded from scratch, it's fast and works very well
+- new: custom made animation stack library. This in house built library will bring a lot of cool stuff to the articles
+- new: custom made events library - all the JavaScript events are handled by our code
+- new: custom made pull down menu - when there is not enough space for the categories in the block, this library builts a dropdown and starts to move items there
+- new:  custom made smart sidebar. Again, we decided to build our own solution and integrate it with our existing code to achieve extraordinary performance and flexibility. The smart sidebar library supports multiple sidebars, menus, full ajax support in and out of the sidebar, viewport resizing and more..
+- new: the 'Trending now' block allows you have a ticker on the top of the main content area of your website showing the latest posts.
+- new: the Translation Panel was completely rebuilt and the theme comes already translated in a lot of languages. The user can also correct the translations and share them with other users of the theme.
+- new: RGBA color support for all the configurable colours (a lot more colours than in V4)
+- new: top bar menus now support sub menus
+- new: Font Awesome is now supported and styled to work in the main menu and in the top bar menu via a plugin (Font Awesome 4 Menus)
+- new: setting to disable smooth scroll
+- new: block settings added to Theme Panel
+- new: 8 Category templates - the header of each category is fully customizable
+- new: Each category can use another post grid if needed
+- new: Each category can use another post grid style if needed
+- new: optional category tag on almost all the modules
+- new: the grid system was rebuilt and it's much leaner
+- new: .po/.mo translation support
+- new: vectorial social icons
+- new: welcome and support wp-admin panels
+- new: Plugin Installer - with way better usability
+- new: one click Installer that actually works as expected - built from scratch, it's made to provide a starting point for your site.
+- new: tinyMCE - two columns support
+- new: tinyMCE - text highlighting support (with multiple colors)
+- new: tinyMCE - text background color support
+- new: System Status page - the theme will atempt to self diagnosticate the most common problems that show up
+- improvement: added arrow list style format in post editor
+- improvement: the Theme Panel texts are now much more helpful. We took the time to explain each setting as best as we could.
+- improvement: better excerpt support
+- improvement: way better color selection panel
+- improvement: the typography selection panel was improved a lot
+- improvement: we made all the panels related to the typography / theme fonts accessible from one panel
+- improvement: all the social networks that appear in the header and footer of the theme are now configured from a single panel located in the main Theme Panel
+- improvement: the header panel was reorganized to follow a more logical order (top bar, main menu, logo etc)
+- improvement: Ad box shortcode support title
+- improvement: titles with big fonts now have a better readability (added letter-spacing) 
+- improvement: responsive go to top arrow (it doesn't cover the footer text on tablets) 
+- improvement: dynamic loading of blocks and modules ( ~15% lower ram usage )
+- improvement: video playlist is more compatible with different hosts/servers. If your video play list was not downloading the video details, please update the theme.
+- improvement: when the user disables the post view, the theme will stop keeping track of them in the background -> faster loading time
+- improvement: the panel loads and saves faster. The total size of the panel was reduced by ~ 40%, we load the rest via Ajax
+- improvement: most of the controls from the panel are now animated via CSS
+- improvement: faster category page, the system that pulls the subcategories uses two less queries
+- improvement: (metadata) all the pages from the theme pass the new Google metadata validation tool
+- improvement: now on category pages the theme only gets child categories for the top level ones. Otherwise it will show the siblings
+- improvement: we refactor the Live Ajax Search box, it now provides a better user experience and it's prepared for major improvements
+- improvement: better paint (on screen drawing) performance on iOS
+- improvement: better font loading system - it now loads by default only the selected characters
+- improvement: better Visual Composer support (the theme supports the design tab from Visual Composer on rows and columns as expected: row parallax, background color on rows etc.)
+- improvement: better support for ie8 and ie9 (we keep track of the CSS selector limit that ie8 and ie9 have)
+- fix: rich snippets reviews
+- fix: click on home link and on logo adds a trailing backslash as expected, preventing one redirect
+- fix: disqus comments CSS
+- fix: social sharing from Jetpack CSS
+- fix: comments pagination bug
+- fix: Speed Booster - font loading and Speed Booster font optimizations. The Speed Booster uses collections to load fonts now
+- fix: php notice when source or via have no url
+- fix: author meta data was a bit broken in Google meta data testing tool
+- fix: author meta data is present even when SHOW AUTHOR BOX is set to disabled in Theme Panel
+- fix: tagDiv modal window is now translated as well (1 of 2 etc)
+- fix: video playlist title encoding issue with double "
+- fix: https issue on backend. TinyMCE font was loaded via HTTP
+- fix: astpect ration for Vimeo videos
+- fix: missing translations
+- fix: Webmaster tools error caused by two search queries that go to the same page  /search/ and ?s==

@@ -1,0 +1,97 @@
+.td-theme-panel-body #wpcontent {
+  background-color: #3b7fa8 !important;
+  background: url('../images/panel/bg/1.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.td-theme-panel-body #wpfooter {
+  color: rgba(255, 255, 255, 0.8);
+}
+.td-theme-panel-body #wpfooter a {
+  color: #fff;
+}
+.td-theme-panel-body ul#adminmenu a.wp-has-current-submenu:after,
+.td-theme-panel-body ul#adminmenu > li.current > a.current:after {
+  border-right-color: #30749B;
+}
+/* --------- */
+/* NEWSPAPER theme panel */
+/* --------- */
+.newspaper_page_td_theme_panel #wpcontent {
+  background-repeat: repeat;
+}
+/* --------- */
+/* IONMAG theme panel */
+/* --------- */
+.ionmag_page_td_theme_panel .td-checkbox-active,
+.ionmag_page_td_theme_panel .td_upload_button,
+.ionmag_page_td_theme_panel .td-big-button,
+.ionmag_page_td_theme_panel .td-button-add-new-sidebar {
+  background-color: #ec4d4d;
+}
+.ionmag_page_td_theme_panel .wp-picker-container .button {
+  background-color: #ec4d4d !important;
+}
+.ionmag_page_td_theme_panel .td-panel-save-button {
+  background: none;
+  background-color: #ec4d4d;
+}
+.ionmag_page_td_theme_panel .td-panel-save-button:focus {
+  outline: 0;
+  border-color: transparent;
+}
+.ionmag_page_td_theme_panel .td-panel-save-button:hover {
+  background: linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, #f13434);
+  background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, #f13434);
+  background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0) 0%, #f13434);
+  background-color: #ec4d4d;
+}
+.ionmag_page_td_theme_panel .td-visual-selector-active {
+  border-color: #ec4d4d !important;
+}
+.ionmag_page_td_theme_panel .td-radio-control-option-selected span {
+  background-image: url("../images/panel/radio-check-r.png");
+}
+.ionmag_page_td_theme_panel select:focus,
+.ionmag_page_td_theme_panel textarea:focus {
+  border-color: #ddd;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.ionmag_page_td_theme_panel #wpcontent {
+  background: url('../images/panel/bg/bg-red.jpg');
+}
+.ionmag_page_td_theme_panel .td-box-weather {
+  display: none;
+}
+.ionmag_page_td_theme_panel .td_panel_box_default_post_template_site_wide .td-box-description {
+  float: none;
+  width: auto;
+  padding-bottom: 18px;
+}
+.ionmag_page_td_theme_panel .td_panel_box_default_post_template_site_wide .td-box-control-full {
+  float: none;
+  width: auto;
+}
+.ionmag_page_td_theme_panel .td_panel_box_default_post_template_site_wide .td-small-wrapper-o-separator {
+  margin-right: 15px;
+  margin-bottom: 11px;
+}
+.td-theme-Ionmag .td-visual-selector-active {
+  border-color: #ec4d4d !important;
+}
+.td-theme-Ionmag .td-button-add-new-sidebar {
+  background-color: #ec4d4d;
+}
+.td-theme-Ionmag .td-wpa-info strong {
+  color: #ec4d4d;
+}
+.update-ionmag p:before {
+  color: #f56e28;
+  content: "\f463";
+  display: inline-block;
+  font: 400 20px/1 dashicons;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: top;
+}
